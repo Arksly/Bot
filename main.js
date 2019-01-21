@@ -1,14 +1,14 @@
 const Discord = require ('discord.js');
 const token = process.env.token
-var bot = new Discord.Client();
+const bot = new Discord.Client();
+const cfg = require ('./index.json')
 
 bot.on('ready', () => {
     console.log("Bot Ready !");
 });
 
-bot.login('NTM2MjAyMDA3MDExMTMxMzkz.DyUMvA.1MUbwlFuydq_SaFpMnOrfHloIL0');
+bot.login(token);
 
-bot.on('message', message => {
     if (message.content === "!ping"){
         message.channel.send("Je n'aime pas ce jeu... :eyes:");
         console.log('ping pong');
