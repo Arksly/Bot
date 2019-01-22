@@ -1,6 +1,6 @@
 const Discord = require ('discord.js');
 const bot = new Discord.Client();
-
+$ heroku scale web=0 worker=1
 
 bot.login(NTM2MjAyMDA3MDExMTMxMzkz.DyeVQQ.KI9hQ0-X0_bEeUDN4o_GJps81Bk);
 
