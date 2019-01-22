@@ -34,9 +34,9 @@ bot.on('message', message => {
         message.channel.send("un jeu génial")
         console.log("message")
     }
-     if (message.content === "lol"){
-        message.channel.send("")
-        console.log("réussi")
+     if (message.content === "faya"){
+        message.channel.send("Beau")
+        console.log("faya")
     }
     if (message.content === "..."){  
        message.channel.send("gnuh uh uh")
