@@ -14,8 +14,8 @@ bot.on('message', message => {
         message.channel.send("https://tenor.com/view/lordoftherings-onering-saurons-finger-lotr-ring-gif-4724582");
         console.log("ping pong");
     }
-    if (message.content === "test"){
-    bot.channels.get('535837560593711114').send("c'est un test")
+    if (message.content === "lol"){
+    bot.channels.get('536277535236030484').send("Toutes mes félicitations Paladin ! :clap: :crossed_swords:")
     console.log("test")
     }    
     if (message.content === "eyes"){
@@ -35,7 +35,7 @@ bot.on('message', message => {
         console.log("message")
     }
      if (message.content === "lol"){
-        message.channel.send("Toutes mes félicitations Paladin ! :clap: :crossed_swords:")
+        message.channel.send("")
         console.log("réussi")
     }
     if (message.content === "..."){  
