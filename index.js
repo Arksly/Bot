@@ -13,7 +13,10 @@ bot.on('message', message => {
     if (message.content === "code5"){
         message.channel.send("https://tenor.com/view/lordoftherings-onering-saurons-finger-lotr-ring-gif-4724582");
         console.log('ping pong');
-    }     
+    }
+    bot.on('ready', () => {
+    bot.channels.get('CHANNEL ID').send("c'est un test")
+    }    
     if (message.content === "eyes"){
         message.channel.send(":eyes:")
         console.log("eyes")
