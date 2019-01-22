@@ -15,7 +15,7 @@ bot.on('message', message => {
         console.log("ping pong");
     }
     if (message.content === "test"){
-    bot.channels.get('536277535236030484').send("c'est un test")
+    bot.channels.get('535837560593711114').send("c'est un test")
     console.log("test")
     }    
     if (message.content === "eyes"){
