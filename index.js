@@ -18,11 +18,6 @@ bot.on('message', message => {
     bot.channels.get('536277535236030484').send("Toutes mes félicitations Paladin ! :clap: :crossed_swords:")
     console.log("test")
     }
-    if (message.channel.type == "dm") {
-   var message = message.content.toString();
-   // We'll send the message back to the author as AN EXAMPLE
-   message.author.send(message);
-    }
     if (message.content === "eyes"){
         message.channel.send(":eyes:")
         console.log("eyes")
