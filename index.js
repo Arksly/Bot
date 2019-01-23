@@ -7,7 +7,7 @@ bot.on('ready', () => {
 });
 
 bot.login(process.env.token);
-
+bot.user.setGame("à EnigmBox");
 
 bot.on('message', message => {
     if (message.content === "code 5"){
