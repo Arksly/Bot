@@ -8,6 +8,7 @@ bot.on('ready', () => {
 
 bot.login(process.env.token);
 
+bot.on.setGame('Enigmbox');
 
 bot.on('message', message => {
     if (message.content === "code 5"){
@@ -16,15 +17,13 @@ bot.on('message', message => {
     }
     if (message.content === "test"){
     bot.channels.get('536277535236030484').send("c'est un test")
-    }    
-    bot.on.setGame('Enigmbox');
-    
+    }
     if (message.content === "dnd")
     then.SetStatus('dnd')
-
+    } 
     if (message.content === "Freedom")
     then.SetStatus('online')
-
+    }
     if (message.content === "eyes"){
         message.channel.send(":eyes:")
         console.log("eyes")
@@ -37,11 +36,11 @@ bot.on('message', message => {
         message.channel.send("J'avoue")
         console.log("huhu")
     }
-     if (message.content === "enigmbox"){  
+    if (message.content === "enigmbox"){  
         message.channel.send("une réussite totale")
         console.log("message")
     }
-     if (message.content === "lol"){
+    if (message.content === "lol"){
         message.channel.send("Toutes mes félicitations Paladin ! :clap: :crossed_swords:")
         console.log("réussi")
     }
